@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Bhuveda Green</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo-section">
+      <img src="logo.jpeg" alt="Bhuveda Green Logo" class="logo" />
+      <div class="company-text">
+        <h2>Bhuveda GreenTech</h2>
+        <p>Sustaining Earth, Securing Water.</p>
+      </div>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="page1.html#home">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Core Services</a></li>
+        <li><a href="contact.html" class="active-link">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section for Contact -->
+  <section class="hero contact-hero">
+    <div class="hero-content">
+      <h1>Get in Touch</h1>
+      <p>We're here to help and answer any question you might have.</p>
+    </div>
+  </section>
+
+  <!-- Contact Information Cards -->
+  <section class="contact-info-section">
+    <div class="container">
+      <div class="contact-info-grid">
+        <div class="contact-info-card">
+          <div class="info-icon">📍</div>
+          <h3>Our Location</h3>
+          <p>Bhuveda GreenTech Pvt. Ltd.</p>
+          <p>New Delhi, India</p>
+          <p>Google Map: <a href="#" target="_blank">View on Map</a></p>
+        </div>
+        <div class="contact-info-card">
+          <div class="info-icon">📞</div>
+          <h3>Phone</h3>
+          <p>Main: +91-XXXXXXXXXX</p>
+          <p>Support: +91-YYYYYYYYYY</p>
+          <p>Fax: +91-ZZZZZZZZZZ</p>
+        </div>
+        <div class="contact-info-card">
+          <div class="info-icon">✉️</div>
+          <h3>Email</h3>
+          <p>General: info@bhuveda.com</p>
+          <p>Services: services@bhuveda.com</p>
+          <p>Support: support@bhuveda.com</p>
+        </div>
+        <div class="contact-info-card">
+          <div class="info-icon">⏰</div>
+          <h3>Business Hours</h3>
+          <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+          <p>Saturday: 10:00 AM - 4:00 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-form-section">
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="form-intro">
+          <h2>Send us a Message</h2>
+          <p>Have a question or ready to start your next project? Fill out the form below and we'll get back to you as soon as possible.</p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" placeholder="Your Company" />
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service of Interest *</label>
+            <select id="service" name="service" required>
+              <option value="">-- Select a Service --</option>
+              <option value="water">Water Management & Hydrogeology</option>
+              <option value="compliance">Environmental Compliance & Assessment</option>
+              <option value="gis">GIS Mapping & Spatial Analysis</option>
+              <option value="esg">ESG Strategy & Sustainability</option>
+              <option value="disaster">Disaster Risk & Climate Resilience</option>
+              <option value="testing">Laboratory & Field Testing</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?" required />
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us more about your inquiry..." rows="6" required></textarea>
+          </div>
+
+          <div class="form-group checkbox">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">I agree to the terms and privacy policy</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+          <p class="form-note">We typically respond within 24 hours during business days.</p>
+        </form>
+
+        <div class="form-success" id="formSuccess" style="display: none;">
+          <h3>✓ Message Sent Successfully!</h3>
+          <p>Thank you for reaching out. We'll get back to you as soon as possible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Office Locations Map -->
+  <section class="office-locations">
+    <div class="container">
+      <h2>Our Offices</h2>
+      <div class="locations-grid">
+        <div class="location-card">
+          <h3>📍 Headquarters - New Delhi</h3>
+          <p>Main office and operational center</p>
+          <p>Address: Your Address Here</p>
+          <p>Phone: +91-XXXXXXXXXX</p>
+        </div>
+        <div class="location-card">
+          <h3>🏢 Regional Office</h3>
+          <p>Serving regional clients</p>
+          <p>Address: Regional Address Here</p>
+          <p>Phone: +91-YYYYYYYYYY</p>
+        </div>
+        <div class="location-card">
+          <h3>🌐 Online Services</h3>
+          <p>Digital consultations available</p>
+          <p>Video conferencing enabled</p>
+          <p>Remote project support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>How long does a typical project take?</h3>
+          <p>Project timelines vary based on scope and complexity. We'll provide a detailed timeline during our initial consultation. Most projects range from 4 to 12 weeks.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What is your pricing structure?</h3>
+          <p>We offer customized pricing based on project requirements. Please contact us for a detailed quote tailored to your specific needs.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you work with international clients?</h3>
+          <p>Yes, we have experience working with international clients and can support projects globally with appropriate remote collaboration.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What makes Bhuveda GreenTech different?</h3>
+          <p>Our combination of scientific expertise, cutting-edge technology, and personalized service sets us apart. We focus on delivering actionable solutions.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you offer consulting services?</h3>
+          <p>Yes, we provide comprehensive consulting services including strategic planning, implementation support, and ongoing advisory services.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How can I request a proposal?</h3>
+          <p>Simply fill out our contact form or call us directly. We'll discuss your needs and provide a detailed proposal within 5-7 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media & Additional Contact -->
+  <section class="additional-contact">
+    <div class="container">
+      <h2>Connect With Us</h2>
+      <div class="social-section">
+        <p>Follow us on social media to stay updated with the latest news and insights.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="LinkedIn">LinkedIn</a>
+          <a href="#" class="social-link" title="Facebook">Facebook</a>
+          <a href="#" class="social-link" title="Twitter">Twitter</a>
+          <a href="#" class="social-link" title="Instagram">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Bhuveda</h4>
+        <p>Leading provider of sustainable environmental solutions for a better tomorrow.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="page1.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Water Management</a></li>
+          <li><a href="services.html">Environmental Compliance</a></li>
+          <li><a href="services.html">GIS Solutions</a></li>
+          <li><a href="services.html">ESG Strategies</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>Email: info@bhuveda.com</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+        <p>Headquarters: India</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Bhuveda GreenTech Pvt. Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script1.js"></script>
+  <script src="contact-script.js"></script>
+</body>
+</html>
